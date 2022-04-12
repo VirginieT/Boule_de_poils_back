@@ -1,0 +1,73 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Animal{% endblock %}
+
+{% block body %}
+<div class="container">
+    <h1>Fiche de l'animal</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ animal.id }}</td>
+            </tr>
+            <tr>
+                <th>Nom</th>
+                <td>{{ animal.name }}</td>
+            </tr>
+            <tr>
+                <th>Espèce animale</th>
+                <td>{{ animal.species.name }}</td>
+            </tr>
+            <tr>
+                <th>Genre</th>
+                <td>{% if animal.gender == '0' %} Femelle{% elseif animal.gender == '1' %} Male{% endif %}</td>
+                <td><img class="img_backoffice_index" src="{{ animal.picture }}"></td>
+            </tr>
+            <tr>
+                <th>Photo</th>
+                <td><img class="img_backoffice_show" src="{{ animal.picture }}"></td>
+            </tr>
+            <tr>
+                <th>Age</th>
+                <td>{{ animal.age }}</td>
+            </tr>
+            <tr>
+                <th>Sociable avec les enfants ?</th>
+                <td>{{ animal.childCompatibility ? 'Oui' : 'Non' }}</td>
+            </tr>
+            <tr>
+                <th>Sociable avec autres animaux ?</th>
+                <td>{{ animal.otherAnimalCompatibility ? 'Oui' : 'Non' }}</td>
+            </tr>
+            <tr>
+                <th>Besoin d'un jardin ?</th>
+                <td>{{ animal.gardenNeeded ? 'Oui' : 'Non'}}</td>
+            </tr>
+            <tr>
+                <th>Status</th>
+                <td>{% if animal.status == '0' %} Disponible{% elseif animal.status == '1' %} Resa en cours{% elseif animal.status == '2' %} Indisponible{% elseif animal.status == '3' %} Adopté{% endif %}</td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>{{ animal.description }}</td>
+            </tr>
+                        <tr>
+                <th>Association</th>
+                <td>{{ animal.association.name }}</td>
+            </tr>
+                        <tr>
+                <th>Département d'accueil</th>
+                <td>{{ animal.department.name }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('app_animal_index') }}">Retour à la liste</a>
+
+    <a href="{{ path('app_animal_edit', {'id': animal.id}) }}">Mettre à jour</a>
+
+    {{ include('back/animal/_delete_form.html.twig') }}
+    </div>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Species{% endblock %}
+
+{% block body %}
+<div class="container">
+    <h1>Ajout d'une espèce animale</h1>
+
+    {{ include('back/species/_form.html.twig') }}
+
+    <a href="{{ path('app_species_index') }}">Retour à la liste des espèces</a>
+    </div>
+{% endblock %}
