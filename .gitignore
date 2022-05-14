@@ -4,9 +4,12 @@
 /.env.local.php
 /.env.*.local
 /config/secrets/prod/prod.decrypt.private.php
+/config/jwt/private.pem
 /public/bundles/
+/public/jwt/private.pem
 /var/
 /vendor/
+
 
 ###< symfony/framework-bundle ###
 /vpn.md
