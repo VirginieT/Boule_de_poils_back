@@ -1,5 +1,7 @@
 # Boule_de_poils_back
 
+![Capture d’écran 2022-05-17 224347](https://user-images.githubusercontent.com/92692968/168907295-9f305cdd-8146-4591-8c7b-8d7c7eb6e45c.png)
+
 Démonstration du projet visible dans cette vidéo, à partir de 9:10 min
 https://www.youtube.com/watch?v=yBA6xYkmB5s
 
@@ -30,3 +32,6 @@ Grâce à Symfony Webpack Encore, nous avons récupéré des informations du fro
 
   <img src="https://github.com/devicons/devicon/blob/master/icons/trello/trello-plain-wordmark.svg" title="Trello" alt="Trello" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg" title="Figma" alt="Figma" width="40" height="40"/>&nbsp;
+  
+  
+
