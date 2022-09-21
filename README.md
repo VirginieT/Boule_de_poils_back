@@ -9,7 +9,8 @@ https://www.youtube.com/watch?v=yBA6xYkmB5s
 Dans la vidéo, il s'agit de la partie console d'administration.
 
 Page front : http://bdp.fl-toussaint.fr
-pAGE BACK / http://back.fl-toussaint.fr
+
+Page back : http://back.fl-toussaint.fr
 
 Avec mon binome nous avons travaillé parfois en pair programming, par exemple pour créer les fixtures que l'on a insérées dans la BDD (via Doctrine).
 
