@@ -6,7 +6,6 @@ Fork de la partie back de mon projet de fin de formation, réalisé tout le mois
 
 Démonstration du projet visible dans cette vidéo, à partir de 9:10 min
 https://www.youtube.com/watch?v=yBA6xYkmB5s
-Dans la vidéo, il s'agit de la partie console d'administration.
 
 Page front : http://bdp.fl-toussaint.fr
 
