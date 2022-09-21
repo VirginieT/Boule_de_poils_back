@@ -1,14 +1,15 @@
 # Boule_de_poils_back
+Fork de la partie back de mon projet de fin de formation, réalisé tout le mois d'avril 2022.
 ![image](https://user-images.githubusercontent.com/92692968/191472987-a6ba9cb3-5a93-49df-ad17-8ec10729c5f6.png)
-
 
 ![Capture d’écran 2022-05-17 224347](https://user-images.githubusercontent.com/92692968/168907295-9f305cdd-8146-4591-8c7b-8d7c7eb6e45c.png)
 
 Démonstration du projet visible dans cette vidéo, à partir de 9:10 min
 https://www.youtube.com/watch?v=yBA6xYkmB5s
-
-Fork de la partie back de mon projet de fin de formation, réalisé tout le mois d'avril 2022.
 Dans la vidéo, il s'agit de la partie console d'administration.
+
+Page front : http://bdp.fl-toussaint.fr
+pAGE BACK / http://back.fl-toussaint.fr
 
 Avec mon binome nous avons travaillé parfois en pair programming, par exemple pour créer les fixtures que l'on a insérées dans la BDD (via Doctrine).
 
